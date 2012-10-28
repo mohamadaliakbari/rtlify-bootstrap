@@ -5,17 +5,16 @@ Provide bootstrap-rtl.css to load after main bootstrap and RTLify layout.
 
 Instalation:
 
-1- Download orginal botstrap files from http://twitter.github.com/bootstrap/
+1- Download main bootstrap files from http://twitter.github.com/bootstrap/
 
 2- Download the same version of rtlify-bootstrap.
 
-3- Load rtlify-bootstrap CSS files right after their equivalent files in main bootstrap files.
+3- Load rtlify-bootstrap CSS files right after their equivalent in main bootstrap.
 
 So you have something like:
 
 ```HTML
 <link href="assets/css/bootstrap.css" rel="stylesheet">
-
 <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">
 ```
 
