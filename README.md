@@ -13,9 +13,11 @@ Instalation:
 
 So you have something like:
 
+```HTML
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 
 <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">
+```
 
 Notices:
 
