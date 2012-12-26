@@ -461,35 +461,59 @@
     margin-left: 0; /*LTR*/   
     margin-right: 20px; /*LTR*/
   }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 20px; /*LTR*/
+    padding-left: 20px; /*LTR*/
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: -20px; /*LTR*/
+    margin-left: -20px; /*LTR*/
+  }
+  .container-fluid {
+    padding: 0; /*LTR*/
+  }
   .dl-horizontal dt {
+    float: none; /*LTR*/
     text-align: right; /*LTR*/
   }
   .dl-horizontal dd {
-    margin-left: 0; /*LTR*/   
+    margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
-  }  
+  }
   .row,
   .thumbnails {
-    margin-left: 0; /*LTR*/    
+    margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
   }
   .thumbnails > li {
-    margin-left: 0; /*LTR*/    
+    float: none; /*LTR*/
+    margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
   }
   [class*="span"],
   .row-fluid [class*="span"] {
-    margin-left: 0; /*LTR*/    
+    float: none; /*LTR*/
+    margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
   }
   .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 0; /*LTR*/    
+     margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
+  }
+  .modal {
+    right: 20px; /*LTR*/
+    left: 20px; /*LTR*/
   }
 }
 
 @media (max-width: 480px) {
   .form-horizontal .control-label {
+    float: none; /*LTR*/
     text-align: right; /*LTR*/
   }
   .form-horizontal .controls {
@@ -502,11 +526,23 @@
   .navbar .brand {
     margin: 0 -5px 0 0; /*LTR*/
   }
+  .nav-collapse .nav {
+    float: none; /*LTR*/
+  }
+  .nav-collapse .nav > li {
+    float: none; /*LTR*/
+  }
   .nav-collapse .dropdown-menu {
     left: auto; /*LTR*/
     right: auto; /*LTR*/
+    float: none; /*LTR*/
+  }
+  .nav-collapse .navbar-form,
+  .nav-collapse .navbar-search {
+    float: none; /*LTR*/
   }
   .navbar .nav-collapse .nav.pull-right {
+    float: none; /*LTR*/
     margin-left: 0; /*LTR*/
     margin-right: 0; /*LTR*/
   }
